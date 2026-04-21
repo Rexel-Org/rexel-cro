@@ -13,7 +13,7 @@ const Index = () => {
       <main className="mx-auto w-full max-w-[1440px] px-4 pb-16 lg:px-6">
         <Breadcrumb />
 
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-[1fr_360px] xl:gap-10">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-[1fr_408px] xl:gap-10">
           {/* Left: product zone */}
           <section className="flex flex-col gap-6">
             <ProductInfo />
