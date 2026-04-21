@@ -29,21 +29,21 @@ const ProjectListBlock = ({
       href={href}
       role="link"
       aria-label={`Voir le panier simplifié ${categoryName} — ${productCount} produits`}
-      className="group block rounded-lg border border-rexel-info-border bg-rexel-info-bg p-3 transition-shadow duration-200 hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rexel-blue focus-visible:ring-offset-2"
+      className="group block rounded-lg border border-rexel-loyalty/40 bg-rexel-loyalty-soft p-3 transition-shadow duration-200 hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rexel-blue focus-visible:ring-offset-2"
     >
       <div className="flex items-center gap-3">
         <span
           aria-hidden
-          className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-white text-rexel-link"
+          className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-white text-rexel-loyalty-foreground"
         >
           <ListChecks className="h-4 w-4" />
         </span>
 
         <div className="min-w-0 flex-1">
-          <p className="text-[10px] font-bold uppercase tracking-[0.1em] text-rexel-link">
+          <p className="text-[10px] font-bold uppercase tracking-[0.1em] text-rexel-loyalty-foreground">
             Panier simplifié
           </p>
-          <p className="mt-0.5 text-[13px] font-semibold leading-snug text-rexel-text transition-colors group-hover:text-rexel-link">
+          <p className="mt-0.5 text-[13px] font-semibold leading-snug text-rexel-text transition-colors group-hover:text-rexel-loyalty-foreground">
             Composez votre projet {categoryName}
           </p>
         </div>
@@ -73,7 +73,7 @@ const ProjectListBlock = ({
           )}
         </ul>
 
-        <span className="inline-flex shrink-0 items-center gap-1 text-xs font-semibold text-rexel-link">
+        <span className="inline-flex shrink-0 items-center gap-1 text-xs font-semibold text-rexel-loyalty-foreground">
           Voir le panier
           <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
         </span>
