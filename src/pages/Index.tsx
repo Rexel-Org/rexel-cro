@@ -23,16 +23,17 @@ const Index = () => {
               <ProductGallery />
               <ProductDetails />
             </div>
+          </section>
 
+          {/* Right: purchase + simplified cart */}
+          <aside className="flex h-full flex-col gap-4">
+            <PurchasePanel />
             <ProjectListBlock
-              categoryName="communication VDI résidentiel"
+              categoryName="communication VDI"
               productCount={12}
               href="/simplified-cart/communication-vdi-residentiel"
             />
-          </section>
-
-          {/* Right: purchase */}
-          <PurchasePanel />
+          </aside>
         </div>
       </main>
 

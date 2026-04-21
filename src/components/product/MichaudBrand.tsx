@@ -1,10 +1,10 @@
 const MichaudBrand = () => (
-  <div className="flex flex-col items-center justify-center rounded-sm bg-[hsl(0,72%,42%)] px-3 py-1.5 leading-none text-white">
-    <span className="font-display text-[20px] font-extrabold italic tracking-tight">
+  <div className="flex h-10 w-10 flex-col items-center justify-center rounded-sm bg-[hsl(0,72%,42%)] px-1 py-1 leading-none text-white">
+    <span className="font-display text-[10px] font-extrabold italic tracking-tight">
       MICHAUD
     </span>
-    <span className="mt-[2px] text-[7px] font-semibold uppercase tracking-[0.12em] opacity-95">
-      L'industrie et réseaux électriques
+    <span className="mt-[1px] text-[5px] font-semibold uppercase tracking-[0.08em] opacity-95">
+      industrie électrique
     </span>
   </div>
 );
