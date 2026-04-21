@@ -47,7 +47,7 @@ const PurchasePanel = () => (
     <div>
       <p className="text-sm text-rexel-text-muted">Prix unitaire € HT</p>
       <p className="mt-1 flex items-baseline gap-1">
-        <span className="font-display text-[30px] font-bold leading-none text-rexel-text">75,00 €</span>
+        <span className="font-display text-[18px] font-bold leading-none text-rexel-text">75,00 €</span>
         <span className="text-sm text-rexel-text-muted">/ P.</span>
         <Info className="ml-1 h-3.5 w-3.5 text-rexel-link" />
       </p>
