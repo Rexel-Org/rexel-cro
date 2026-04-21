@@ -38,10 +38,41 @@
 
     /* Rexel-specific tokens */
     --rexel-blue: 224 59% 32%;            /* brand navy #223C80 */
-    --rexel-blue-link: 215 88% 35%;       /* links */
-    --rexel-yellow: 48 100% 52%;          /* dite yellow accent */
-    --rexel-green: 142 65% 45%;           /* stock / availability */
-    --rexel-green-soft: 142 50% 92%;
+
+    /* Brand secondary - Volta */
+    --rexel-volta: 222 92% 60%;           /* secondary blue #4374F4 */
+    --rexel-blue-link: 222 80% 42%;       /* accessible link on white (AA) */
+
+    /* Utilities */
+    --rexel-eclipse: 250 60% 14%;
+    --rexel-kelvin: 280 45% 38%;
+    --rexel-seebeck: 270 60% 62%;
+    --rexel-newton-blue: 205 80% 68%;     /* light blue Newton */
+    --rexel-newton-yellow: 48 90% 60%;    /* yellow Newton (was --rexel-yellow) */
+    --rexel-yellow: 48 90% 60%;           /* alias kept for &DITE logo */
+    --rexel-joule: 158 32% 42%;           /* green Joule */
+    --rexel-ohm: 158 38% 65%;
+    --rexel-watt: 28 78% 55%;             /* orange Watt */
+
+    /* Contextual aliases (challengeable) */
+    --rexel-new: 28 78% 55%;              /* New = orange Watt */
+    --rexel-promo: 28 78% 55%;            /* Promotion = orange Watt */
+    --rexel-bought: 158 32% 42%;          /* Already bought = vert Joule */
+    --rexel-rplus: 0 70% 55%;             /* R+ red */
+    --rexel-loyalty: 205 80% 68%;         /* Loyalty = bleu Newton */
+
+    /* Soft surfaces (AA-safe with rexel-text foreground) */
+    --rexel-bought-soft: 158 40% 94%;
+    --rexel-bought-foreground: 158 50% 22%;
+    --rexel-promo-soft: 28 80% 95%;
+    --rexel-promo-foreground: 22 80% 32%;
+    --rexel-loyalty-soft: 205 80% 95%;
+    --rexel-loyalty-foreground: 215 80% 28%;
+
+    /* Legacy aliases used in UI */
+    --rexel-green: 158 32% 42%;
+    --rexel-green-soft: 158 40% 94%;
+
     --rexel-text: 215 28% 17%;
     --rexel-text-muted: 215 14% 40%;
     --rexel-surface: 210 33% 98%;
