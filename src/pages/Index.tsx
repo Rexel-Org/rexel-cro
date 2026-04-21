@@ -1,16 +1,37 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Header from "@/components/layout/Header";
+import Breadcrumb from "@/components/product/Breadcrumb";
+import ProductGallery from "@/components/product/ProductGallery";
+import ProductInfo, { ProductDetails } from "@/components/product/ProductInfo";
+import PurchasePanel from "@/components/product/PurchasePanel";
+import AdvisorButton from "@/components/product/AdvisorButton";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
+    <div className="min-h-screen bg-white text-rexel-text">
+      <Header />
+
+      <main className="mx-auto w-full max-w-[1440px] px-4 pb-16 lg:px-6">
+        <Breadcrumb />
+
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-[1fr_360px] xl:gap-10">
+          {/* Left: product zone */}
+          <section className="flex flex-col gap-6">
+            <ProductInfo />
+
+            <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+              <ProductGallery />
+              <ProductDetails />
+            </div>
+          </section>
+
+          {/* Right: purchase */}
+          <PurchasePanel />
+        </div>
+      </main>
+
+      <AdvisorButton />
     </div>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;
