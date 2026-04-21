@@ -1,6 +1,5 @@
-import { Copy, ChevronDown, FileText, ListChecks } from "lucide-react";
+import { Copy, ChevronDown, FileText, ListChecks, Mail, Barcode } from "lucide-react";
 import MichaudBrand from "./MichaudBrand";
-import { Mail, Barcode, Info } from "lucide-react";
 
 const RefChip = ({ label, value }: { label: string; value: string }) => (
   <div className="flex items-center gap-2 rounded-sm bg-rexel-surface px-3 py-2 text-sm">
@@ -33,17 +32,6 @@ const ProductInfo = () => (
     <h1 className="font-display text-[26px] font-bold leading-tight text-rexel-text">
       Tableau de comm. BLUENEO 4 RJ45 &amp; zone attenante
     </h1>
-
-    {/* Already purchased notice */}
-    <div className="rounded-md border border-rexel-info-border bg-rexel-info-bg p-4 text-sm text-rexel-text">
-      <div className="flex items-start gap-2">
-        <Info className="mt-0.5 h-4 w-4 shrink-0 text-rexel-link" />
-        <p>Vous avez déjà acheté cet article au cours des 12 derniers mois.</p>
-      </div>
-      <a href="#" className="ml-6 mt-1 inline-block font-semibold text-rexel-link hover:underline">
-        Voir toutes les commandes
-      </a>
-    </div>
   </div>
 );
 
