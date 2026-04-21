@@ -42,7 +42,7 @@ const ProjectListBlock = forwardRef<HTMLAnchorElement, ProjectListBlockProps>(
           </div>
 
           <p className="mt-1.5 text-sm font-semibold leading-snug text-rexel-text">
-            Accéder à la sélection {categoryName}
+            Comparez les différentes déclinaisons et ajoutez-les en une seule fois
           </p>
 
           <div className="mt-2 flex items-center justify-end">
