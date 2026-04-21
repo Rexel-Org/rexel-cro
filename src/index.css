@@ -69,6 +69,18 @@
     --rexel-loyalty-soft: 205 80% 95%;
     --rexel-loyalty-foreground: 215 80% 28%;
 
+    /* Violet scale (Panier simplifié / list project) */
+    --violet-10: 295 50% 97%;   /* F9F2FB */
+    --violet-20: 290 45% 89%;   /* E8D4F2 */
+    --violet-30: 286 52% 78%;   /* D0AAE3 */
+    --violet-40: 287 46% 66%;   /* B97DD4 */
+    --violet-50: 287 41% 57%;   /* A45BC7 */
+    --violet-60: 290 45% 58%;   /* A75CCC */
+    --violet-70: 285 36% 46%;   /* 844AA0 */
+    --violet-80: 285 35% 33%;   /* 633874 */
+    --violet-90: 283 35% 22%;   /* 422549 */
+    --violet-100: 285 35% 11%;  /* 211225 */
+
     /* Legacy aliases used in UI */
     --rexel-green: 158 32% 42%;
     --rexel-green-soft: 158 40% 94%;

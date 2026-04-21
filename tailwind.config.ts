@@ -55,6 +55,18 @@ export default {
           "info-border": "hsl(var(--rexel-info-border))",
           divider: "hsl(var(--rexel-divider))",
         },
+        violet: {
+          10: "hsl(var(--violet-10))",
+          20: "hsl(var(--violet-20))",
+          30: "hsl(var(--violet-30))",
+          40: "hsl(var(--violet-40))",
+          50: "hsl(var(--violet-50))",
+          60: "hsl(var(--violet-60))",
+          70: "hsl(var(--violet-70))",
+          80: "hsl(var(--violet-80))",
+          90: "hsl(var(--violet-90))",
+          100: "hsl(var(--violet-100))",
+        },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
