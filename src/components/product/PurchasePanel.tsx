@@ -35,7 +35,13 @@ const QuantityStepper = () => {
   );
 };
 
-const StockBadge = ({ value, color = "bg-rexel-green-soft text-[hsl(142,55%,28%)]" }: { value: string; color?: string }) => (
+const StockBadge = ({
+  value,
+  color = "bg-rexel-bought-soft text-rexel-bought-foreground",
+}: {
+  value: string;
+  color?: string;
+}) => (
   <span className={`flex h-7 min-w-[28px] items-center justify-center rounded-sm px-1.5 text-xs font-bold ${color}`}>
     {value}
   </span>
@@ -106,7 +112,7 @@ const PurchasePanel = () => (
       </div>
       <p className="mt-2 text-xs font-semibold uppercase tracking-wide text-rexel-link">REXEL - ANNECY</p>
       <div className="mt-3 flex items-center gap-2">
-        <StockBadge value="0" color="bg-rexel-green-soft text-[hsl(142,55%,28%)]" />
+        <StockBadge value="0" />
         <p className="text-rexel-text">Dans 2h dans votre agence (click and collect)</p>
       </div>
       <div className="mt-2 flex items-center gap-2">
