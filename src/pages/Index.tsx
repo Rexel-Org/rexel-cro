@@ -4,6 +4,7 @@ import ProductGallery from "@/components/product/ProductGallery";
 import ProductInfo, { ProductDetails } from "@/components/product/ProductInfo";
 import PurchasePanel from "@/components/product/PurchasePanel";
 import AdvisorButton from "@/components/product/AdvisorButton";
+import ProjectListBlock from "@/components/product/ProjectListBlock";
 
 const Index = () => {
   return (
@@ -22,6 +23,12 @@ const Index = () => {
               <ProductGallery />
               <ProductDetails />
             </div>
+
+            <ProjectListBlock
+              categoryName="communication VDI résidentiel"
+              productCount={12}
+              href="/simplified-cart/communication-vdi-residentiel"
+            />
           </section>
 
           {/* Right: purchase */}
