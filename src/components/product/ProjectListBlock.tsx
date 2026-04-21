@@ -28,7 +28,7 @@ const ProjectListBlock = forwardRef<HTMLAnchorElement, ProjectListBlockProps>(
         {/* Accent latéral coloré */}
         <span
           aria-hidden
-          className="absolute left-0 top-0 h-full w-1 bg-violet-50"
+          className="absolute left-0 top-0 h-full w-1 bg-violet-60"
         />
 
         <div className="min-w-0">
