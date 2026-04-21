@@ -33,8 +33,8 @@ const ProjectListBlock = forwardRef<HTMLAnchorElement, ProjectListBlockProps>(
 
         <div className="min-w-0">
           <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
-            <span className="inline-flex h-[18px] items-center rounded-full bg-violet-80 px-2 text-[10px] font-bold uppercase leading-none tracking-[0.08em] text-white">
-              Panier simplifié
+            <span className="inline-flex h-[18px] items-center rounded-full bg-violet-80 px-2 text-xs font-normal leading-none text-white">
+              panier simplifié
             </span>
             <span className="text-xs font-semibold text-violet-80">
               {productCount} références
