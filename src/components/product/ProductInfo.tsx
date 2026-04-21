@@ -37,17 +37,6 @@ const ProductInfo = () => (
 
 export const ProductDetails = () => (
   <div className="flex flex-col gap-5">
-    {/* Already purchased notice */}
-    <div className="rounded-md border border-rexel-info-border bg-rexel-info-bg p-4 text-sm text-rexel-text">
-      <div className="flex items-start gap-2">
-        <svg className="mt-0.5 h-4 w-4 shrink-0 text-rexel-link" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
-        <p>Vous avez déjà acheté cet article au cours des 12 derniers mois.</p>
-      </div>
-      <a href="#" className="ml-6 mt-1 inline-block font-semibold text-rexel-link hover:underline">
-        Voir toutes les commandes
-      </a>
-    </div>
-
     <div className="flex flex-wrap gap-2">
       <RefChip label="Réf Rexel" value="MIHLB502" />
       <RefChip label="Réf Fab" value="LB502" />
