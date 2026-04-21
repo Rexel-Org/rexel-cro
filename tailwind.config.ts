@@ -19,6 +19,20 @@ export default {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        rexel: {
+          blue: "hsl(var(--rexel-blue))",
+          link: "hsl(var(--rexel-blue-link))",
+          yellow: "hsl(var(--rexel-yellow))",
+          green: "hsl(var(--rexel-green))",
+          "green-soft": "hsl(var(--rexel-green-soft))",
+          text: "hsl(var(--rexel-text))",
+          "text-muted": "hsl(var(--rexel-text-muted))",
+          surface: "hsl(var(--rexel-surface))",
+          "surface-alt": "hsl(var(--rexel-surface-alt))",
+          "info-bg": "hsl(var(--rexel-info-bg))",
+          "info-border": "hsl(var(--rexel-info-border))",
+          divider: "hsl(var(--rexel-divider))",
+        },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -62,6 +76,10 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      fontFamily: {
+        sans: ['"Open Sans"', "system-ui", "sans-serif"],
+        display: ['"Montserrat"', "system-ui", "sans-serif"],
       },
       keyframes: {
         "accordion-down": {
